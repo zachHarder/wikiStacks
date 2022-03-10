@@ -1,6 +1,28 @@
 {
   "dependencies": {
     "express": "^4.17.3",
-    "morgan": "^1.10.0"
-  }
+    "html-template-tag": "^3.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  },
+  "name": "wikistack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachHarder/wikiStacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachHarder/wikiStacks/issues"
+  },
+  "homepage": "https://github.com/zachHarder/wikiStacks#readme",
+  "description": ""
 }
